@@ -1,0 +1,31 @@
+%----------------------------------------------------------------------
+\documentclass[a4paper,10pt]{article}
+%----------------------------------------------------------------------
+
+% Document variables
+\newcommand{\doctitle}{Title of the document here}
+\newcommand{\docsubtitle}{A subtitle here}
+\newcommand{\authorname}{A. Author-one, B. Author-two}
+\newcommand{\authordepartment}{Aerospace Engineering Department (UC3Mx)}
+\newcommand{\docversion}{2017.1}
+
+% Macros
+\input{macros/macros}
+
+%----------------------------------------------------------------------
+\begin{document}
+%----------------------------------------------------------------------
+
+% Title page
+\include{macros/titlepage}
+
+% Preface and table of contents
+\include{chapters/preface}
+\tableofcontents
+
+% Chapters
+\include{chapters/chapter1}
+
+%----------------------------------------------------------------------
+\end{document}
+%----------------------------------------------------------------------
